@@ -1,4 +1,4 @@
-- hosts: test
+- hosts: webserver
   become: yes
   tasks:
   - package: name=httpd state=latest
